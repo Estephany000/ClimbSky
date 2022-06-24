@@ -1,0 +1,200 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+
+@media only screen and (max-device-width: 900px) {
+/* .menu { width:600px; } */
+}
+
+body{
+  font-size: 1em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background-color: white; }
+
+.navbar{
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #AEF2EA;} 
+
+.navbar{
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #AEF2EA;}
+
+.navbar .logo{
+  width: 140px;
+  height: auto;
+  padding: 20px 100px;}
+
+.navbar ul{
+  float: right;
+  margin-right: 20px;}
+
+.navbar ul li{
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 80px; }
+
+.navbar ul li a{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  padding: 6px 13px;
+  text-decoration: none;
+  transition: .4s; }
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+  background: black;
+  border-radius: 2px;
+}
+
+li{
+  color: black;
+  text-align: left;
+  font: Arvo, Arial;
+  margin: 15px;
+  font-size: 22px; 
+    margin: 0 10%;
+}
+
+.outro{
+  float: right;
+}
+.lado{
+  margin: 0 10%;
+   margin: 15px;
+ float: left}
+
+h1{ 
+  margin: 0 10%;
+ text-align: left;
+  font: Arvo, Arial, Tahoma, sans-serif;}
+
+h3{
+  margin: 0 10%;
+ text-align: left;
+  color: #A5A09E;
+  font: Arvo, Arial, Tahoma, sans-serif; }
+
+.txt{
+  text-align: center;}
+
+h4{
+  color: black;
+  font: 16px Roboto, sans-serif;
+  margin: 0px 0px 15px;
+  text-align: left;}
+
+.imagens{
+  display: inline-block;
+  float: right;}
+
+#area-rodape{
+  background-color: #AEF2EA;
+  font-family: sans-serif;
+  clear: both;
+  text-align: center;
+  padding: 15px; }
+
+.button{
+    background-color: #AEF2EA ;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    clear: both;
+    color: black;
+    font: Arvo, Arial;
+    margin: 15px;
+    font-size: 22px; }
+
+a{
+  text-decoration: none;
+  color: white; }
+
+ a:hover{
+  text-decoration: none;
+  color: black;}
+
+.center .buttons{
+  margin: 35px 280px;}
+
+.buttons button{
+  height: 50px;
+  width: 150px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background: #AEF2EA;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #AEF2EA;
+  border-radius: 25px;
+  transition: .4s;
+  float: center;
+}
+
+
+.button3 {
+  background-color: #f3940e;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font: arial;
+}
+
+.buttons .btn2{
+  margin-center: 25px;
+  float: center;
+}
+
+
+.buttons button:hover{
+  background: white;
+  color: black;
+}
+
+#menu {
+    width: 30%;
+    margin: 0; padding: 0;
+    float: right;
+    }
+
+ #menu ul li {
+    margin: 0; padding: 0px;
+    border-bottom: 1px solid black;
+    text-align: left;
+    list-style-type: none;
+    }
+
+  image size{
+  max-width: 40%;
+  max-height: 20%;
+}
+
+.bloco {
+  width: 100%;
+  margin: 15px;
+  float: center;
+}
+
+
+  
+
+
